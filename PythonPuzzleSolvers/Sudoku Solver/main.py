@@ -82,4 +82,11 @@ print(is_valid(board, 0 , 2 , 1 ))
 print(is_valid(board, 0 , 2 , 7 ))
 print(is_valid(board, 0 , 2 , 6 ))
 print(is_valid(board, 3 , 5 , 2 ))
+
+print("======================== Board Before Solve =====================")
+print_board(board)
+print("=================================================================")
+
+print("======================== Board After Solve ======================")
 solve(board)
+print("=================================================================")
