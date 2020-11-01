@@ -61,3 +61,6 @@ def solve_maze_helper(maze, solution, pos_row, pos_col):
   # No solution, impossible, Backtrack
   solution.pop()
   return None
+
+print_maze(maze)
+print(solve_maze(maze))
