@@ -1,11 +1,11 @@
 """
 Shortes Unique Prefix
 
-Given a list of words, for eac hword find the shortest unique prefix. You can assume a word will not be a substring of another word (ie play and playing won't be in the same word list)
+Given a list of words, for each word find the shortest unique prefix. You can assume a word will not be a substring of another word (ie play and playing won't be in the same word list)
 
 Example using my name:
 Input: ["Isaiah", "Isaac", "Ishmael", "Ishtar"]
-Output:["Isai", "isaa", "Ish", "Isht"]
+Output:["Isai", "Isaa", "Ish", "Isht"]
 
 """
 class Node:
